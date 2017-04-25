@@ -1,8 +1,9 @@
-package com.curie.gord.demoapp;
+package com.currie.gord.demoapp;
 
 import android.content.DialogInterface;
 
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
@@ -122,7 +123,6 @@ public class MainActivity extends AppCompatActivity {
         File file = getFile();
 
         Intent shareIntent = new Intent();
-        shareIntent = null;
         shareIntent.setAction(Intent.ACTION_SEND);
         shareIntent.putExtra(Intent.EXTRA_STREAM,Uri.fromFile(file));
         shareIntent.setType("image/png");

@@ -84,7 +84,7 @@ public class DrawView extends View {
         colorPickerDialog.setOnColorSelectedListener(new ColorPickerSwatch.OnColorSelectedListener() {
             @Override
             public void onColorSelected(int color) {
-                paint.setColor(Color.RED);
+                paint.setColor(color);
             }
         });
         colorPickerDialog.show(mainActivity.getFragmentManager(), "COLOR_PICKER");
@@ -128,8 +128,8 @@ public class DrawView extends View {
      */
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        float touchY = event.getX();
-        float touchX = event.getY();
+        float touchX = event.getX();
+        float touchY = event.getY();
         //respond to touch_down, touch_move and touch_up events
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
