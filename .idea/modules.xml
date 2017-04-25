@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DebugApp.iml" filepath="$PROJECT_DIR$/DebugApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DebugAssigment.iml" filepath="$PROJECT_DIR$/DebugAssigment.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/colorpicker/colorpicker.iml" filepath="$PROJECT_DIR$/colorpicker/colorpicker.iml" />
     </modules>
   </component>
 </project>

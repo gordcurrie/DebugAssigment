@@ -1,1 +1,1 @@
-Starter file for Debug assignment
+Demo App for Android 1

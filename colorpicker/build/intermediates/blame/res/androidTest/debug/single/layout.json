@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/gordoncurrie/AndroidStudioProjects/DebugAssigment/colorpicker/build/intermediates/res/merged/androidTest/debug/layout/color_picker_dialog.xml",
+        "source": "/Users/gordoncurrie/AndroidStudioProjects/DebugAssigment/colorpicker/build/intermediates/bundles/debug/res/layout/color_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/gordoncurrie/AndroidStudioProjects/DebugAssigment/colorpicker/build/intermediates/res/merged/androidTest/debug/layout/color_picker_swatch.xml",
+        "source": "/Users/gordoncurrie/AndroidStudioProjects/DebugAssigment/colorpicker/build/intermediates/bundles/debug/res/layout/color_picker_swatch.xml"
+    }
+]
